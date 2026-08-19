@@ -53,8 +53,8 @@ Add to your `.kiro/settings/mcp.json` (or equivalent):
 | `OAUTH2_TOKEN_URL` | Yes | OAuth2 token endpoint (client_credentials grant) |
 | `OAUTH2_CLIENT_ID` | Yes | OAuth2 client ID |
 | `OAUTH2_CLIENT_SECRET` | Yes | OAuth2 client secret |
-| `OAUTH2_BASIC_USERNAME` | No | Basic auth username (for dual-credential SSO like Infor Mingle) |
-| `OAUTH2_BASIC_PASSWORD` | No | Basic auth password (for dual-credential SSO like Infor Mingle) |
+| `OAUTH2_BASIC_USERNAME` | No | Basic auth username (for dual-credential SSO) |
+| `OAUTH2_BASIC_PASSWORD` | No | Basic auth password (for dual-credential SSO) |
 
 ## How It Works
 
@@ -85,7 +85,7 @@ The token is refreshed when:
 
 ## Dual-Credential SSO (Optional)
 
-Some SSO providers (like Infor Mingle) require both:
+Some SSO providers require both:
 - A `client_id` + `client_secret` in the request body
 - A Basic Auth header with service account credentials
 
