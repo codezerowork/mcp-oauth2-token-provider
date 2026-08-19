@@ -1,0 +1,45 @@
+{
+  "name": "mcp-oauth2-token-provider",
+  "version": "2.0.0",
+  "description": "Generic MCP server that handles OAuth2 client_credentials token generation and proxies all tool calls to a remote MCP endpoint with bearer auth. Dynamic tool discovery, auto-refresh on 401, startup health check.",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "mcp-oauth2-token-provider": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "mcp",
+    "oauth2",
+    "token",
+    "proxy",
+    "bearer",
+    "model-context-protocol",
+    "ai",
+    "kiro",
+    "vscode"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codezerowork/mcp-oauth2-token-provider.git"
+  },
+  "homepage": "https://github.com/codezerowork/mcp-oauth2-token-provider#readme",
+  "bugs": {
+    "url": "https://github.com/codezerowork/mcp-oauth2-token-provider/issues"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "index.js",
+    "bin/",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
