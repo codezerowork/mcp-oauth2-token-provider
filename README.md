@@ -15,7 +15,7 @@ A generic MCP (Model Context Protocol) server that acts as an authenticated prox
 ## Installation
 
 ```bash
-npx github:codezerowork/mcp-oauth2-token-provider
+npm install -g github:codezerowork/mcp-oauth2-token-provider
 ```
 
 Or install globally:
