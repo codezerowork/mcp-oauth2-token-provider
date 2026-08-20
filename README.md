@@ -21,7 +21,7 @@ npx mcp-oauth2-token-provider
 Or install globally:
 
 ```bash
-npm install -g mcp-oauth2-token-provider
+npx github:codezerowork/mcp-oauth2-token-provider
 ```
 
 ## Usage with Kiro / VS Code MCP
